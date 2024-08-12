@@ -76,7 +76,7 @@ main{
 }
 .informacion p{
     margin: 0px;
-    font-size: 12px;
+    font-size: 14px;
     align-self:normal;
     line-height: 2;
     color:hsl(228, 12%, 48%);
@@ -108,4 +108,12 @@ main{
     gap: 14px;
     display: flex;
     border-radius: 3px;
+}
+
+.informacion li{
+    color:hsl(212, 21%, 14%);
+    list-style-image: url(./assets/images/icon-list.svg);
+    font-family: "roboto" ,sans-serif;
+    font-size: 14px;
+    gap: 14px;
 }
