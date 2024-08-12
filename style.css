@@ -104,6 +104,17 @@ main{
     gap:7px;
 }
 
+.informacion a{
+
+    border: 0pz;
+    padding: 0px;
+    gap: 7px;
+    display: flex;
+    border-radius: 0px;
+    flex-direction: column;
+   
+
+    }
 .informacion h6{
 
     border: 0pz;
@@ -149,7 +160,7 @@ main{
     color:hsl(212, 21%, 14%);
 }
 
-.pagina2 h6{
+.pagina2 button{
     border: 0px;
     font-family: "Roboto", sans-serif;
     background-color:hsl(4, 100%, 67%);
