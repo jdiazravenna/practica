@@ -13,8 +13,8 @@ body{
 }
 main{
     
-    width: 700px;
-    height: 500px;
+    width: 800px;
+    height: 6500px;
     display:flex;
     align-items: center;
     border-radius: 14px;
@@ -34,7 +34,7 @@ main{
     
     
     background-color: hsl(0, 0%, 100%);
-    margin: 7px;
+    margin: 14px;
     width: 235px;
     height: 350px;
     background-image: url(./assets/images/illustration-sign-up-desktop.svg);
@@ -45,8 +45,7 @@ main{
     gap: 14px;
     padding: 7px;
     
-    
-       
+
 }
 .informacion{
 
@@ -95,20 +94,18 @@ main{
     border-radius: 7px;
     gap: 14px;
 }
+
 .informacion h6{
-    
-    margin:0px;
-    font-weight: 400px;
-    font-size: 12px;
-    padding: 14px;
-    color: hsl(0, 0%, 3%);
-}
-.informacion input{
-    padding: 3.5px;
-    gap: 14px;
+
+    border: 0pz;
+    padding: 0px;
+    gap: 7px;
     display: flex;
-    border-radius: 3px;
-}
+    border-radius: 0px;
+    flex-direction: column;
+   
+
+    }
 
 .informacion li{
     color:hsl(212, 21%, 14%);
@@ -116,4 +113,46 @@ main{
     font-family: "roboto" ,sans-serif;
     font-size: 14px;
     gap: 14px;
+}
+
+.pagina2{
+    border:0px;
+    width: 250px;
+    height: 250px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 32px;
+    display: flex;
+    flex-direction:column;
+    gap:7px;
+    overflow: hidden;
+    border-radius: 32px;
+}
+.pagina2 li{
+    list-style-image: url(./assets/images/icon-list.svg);
+    size: px;   
+}
+.pagina2 h1{
+    margin: 0px;
+    font-family: "Roboto", serif;
+    font-size: 32px;
+    line-height: 1;
+    align-self: left;
+    color:hsl(212, 21%, 14%);
+}
+
+.pagina2 button{
+    border: 0px;
+    font-family: "Roboto", sans-serif;
+    background-color:hsl(4, 100%, 67%);
+    color:white;
+    padding: 14px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 7px;
+    gap: 14px;
+}
+.pagina2 p{
+    font-family: "roboto", sans-serif;
+    font-size: 12px;
 }
