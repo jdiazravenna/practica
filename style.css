@@ -14,13 +14,13 @@ body{
 main{
     
     width: 800px;
-    height: 6500px;
+    height: 650px;
     display:flex;
     align-items: center;
     border-radius: 14px;
     overflow: hidden;
     padding: 28px;
-    gap: 7px;
+    gap: 3px;
 }
 
 .bordes{
@@ -51,14 +51,14 @@ main{
 
     border:0px;
     margin-top: 3%;
-    margin-bottom: -3%;    
+       
     width: 350px;
     height: 350px;
     background-color: hsl(0, 0%, 100%);
-    padding: 24px;
+    padding: 18px;
     display: flex;
     flex-direction:column;
-    gap: 7px;
+    gap: 3px;
     overflow: hidden;
     
 }
@@ -66,9 +66,9 @@ main{
 
     margin: 0px;
     font-family: "Roboto", serif;
-    font-size: 32px;
+    font-size: 48px;
     line-height: 1;
-    align-self: center;
+    align-self: auto;
     color:hsl(212, 21%, 14%);
     
     
@@ -79,6 +79,7 @@ main{
     align-self:normal;
     line-height: 2;
     color:hsl(228, 12%, 48%);
+    gap:7px;
     
 }
 
@@ -92,7 +93,15 @@ main{
     justify-content: center;
     cursor: pointer;
     border-radius: 7px;
-    gap: 14px;
+    gap: 7px;
+}
+.informacion input{
+    margin: 0px;
+    font-size: 12px;
+    align-self:normal;
+    line-height: 2;
+    color:hsl(228, 12%, 48%);
+    gap:7px;
 }
 
 .informacion h6{
@@ -112,7 +121,7 @@ main{
     list-style-image: url(./assets/images/icon-list.svg);
     font-family: "roboto" ,sans-serif;
     font-size: 14px;
-    gap: 14px;
+    gap: 7px;
 }
 
 .pagina2{
@@ -140,7 +149,7 @@ main{
     color:hsl(212, 21%, 14%);
 }
 
-.pagina2 button{
+.pagina2 h6{
     border: 0px;
     font-family: "Roboto", sans-serif;
     background-color:hsl(4, 100%, 67%);
@@ -152,7 +161,9 @@ main{
     border-radius: 7px;
     gap: 14px;
 }
+
 .pagina2 p{
     font-family: "roboto", sans-serif;
     font-size: 12px;
 }
+
